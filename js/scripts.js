@@ -13,5 +13,29 @@ $(document).ready(function(){
     $("#letter").show();
     $(this).hide();
     })
-   
+    $("#for-web").click(function(){
+        $("#web-intro").hide();
+        $("#web-exp").show();
+    })
+    $("#for-web-hide").click(function(){
+        $("#web-exp").hide();
+        $("#web-intro").show();
+    })
+    $("#html-btn-show").click(function(){
+        $("#html-intro").hide();
+        $("#html-show").show();
+    })
+    $("#html-btn-hide").click(function(){
+        $("#html-show").hide();
+        $("#html-intro").show();
+    })
+
+   $("#btn-css-click").click(function(){
+       $("#css-hide").hide();
+       $("#css-show").show();
+   })
+   $("#btn-css-hide").click(function(){
+       $("#css-show").hide();
+       $("#css-hide").show();
+   })
 })
