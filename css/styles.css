@@ -1,6 +1,9 @@
 #letter{
     display: none;
 }
+#flipcard{
+    display: none;
+}
 #web-exp{
     display: none;
 }
@@ -9,4 +12,7 @@
 }
 #css-show{
     display: none;
+}
+#js-exp{
+    display:none;
 }

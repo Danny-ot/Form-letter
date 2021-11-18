@@ -38,4 +38,18 @@ $(document).ready(function(){
        $("#css-show").hide();
        $("#css-hide").show();
    })
+   $("#btn-js-click").click(function(){
+       $("#js-intro").hide();
+       $("#js-exp").show();
+   })
+   $("#btn-js-hide").click(function(){
+       $("#js-exp").hide();
+       $("#js-intro").show();
+   })
+   $("#begin-course").click(function(){
+       $("body").addClass("bg-light")
+       $("#letter").hide();
+       $("#flipcard").show();
+   })
+
 })
